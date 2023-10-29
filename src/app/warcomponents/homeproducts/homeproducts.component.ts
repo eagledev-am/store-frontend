@@ -26,6 +26,8 @@ export class HomeproductsComponent implements OnInit{
   text:string = ""
   wishListProducts : Product[] = []
   selectetWarehouse !: number
+  layout: string = 'list';
+  warehouse !: Warehouse
 
     constructor(private warehouseService : WarehouseService , private router : Router) {
       this.warehouseService.getAllWarehouses().subscribe((data) => {
@@ -65,5 +67,6 @@ export class HomeproductsComponent implements OnInit{
     }
 
  
+
 
 }

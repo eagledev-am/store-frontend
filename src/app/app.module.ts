@@ -24,9 +24,8 @@ import { DynamicDialogModule } from 'primeng/dynamicdialog';
 import { MessagesModule } from 'primeng/messages';
 import {InputNumberModule} from 'primeng/inputnumber';
 import { HomeproductsComponent } from './warcomponents/homeproducts/homeproducts.component';
-import {DataViewModule} from 'primeng/dataview';
 import { DropdownModule } from 'primeng/dropdown';
-
+import { DataViewModule } from 'primeng/dataview';
 
 
 @NgModule({
